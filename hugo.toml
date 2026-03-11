@@ -1,0 +1,8 @@
+baseURL = "https://ignasius-jpeg.github.io/RadixArk-blog-test/"
+languageCode = "en-us"
+title = "RadixArk Blog"
+publishDir = "docs"
+
+[params]
+  brand = "RadixArk"
+
