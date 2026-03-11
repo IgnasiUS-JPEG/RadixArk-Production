@@ -2,10 +2,123 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on RadixArk Blog</title>
-    <link>http://localhost:1313/RadixArk-blog-test/tags/</link>
+    <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/</link>
     <description>Recent content in Tags on RadixArk Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/RadixArk-blog-test/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Debug</title>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/debug/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/debug/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infrastructure</title>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/infrastructure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/infrastructure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Intelligence</title>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/intelligence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Radixark</title>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/radixark/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/radixark/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai</title>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Craft</title>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/craft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/craft/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performance</title>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/performance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/performance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ux</title>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/ux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/ux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Finance</title>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/finance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/finance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Product</title>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/product/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/product/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Systems</title>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Focus</title>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/focus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/focus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Product-Design</title>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/product-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/product-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automation</title>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/automation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Human-Centered-Design</title>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/human-centered-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/human-centered-design/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

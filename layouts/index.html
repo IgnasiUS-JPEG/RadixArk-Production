@@ -17,7 +17,7 @@
                 <div class="card-footer">
                   <span class="card-date">{{ $p.Date.Format "Jan 02, 2006" }}</span>
                   <span class="card-dot">•</span>
-                  <span class="card-tag">{{ with $p.Params.author }}{{ . }}{{ else }}{{ delimit $p.Params.tags ", " }}{{ end }}</span>
+                  <span class="card-tag">{{ with $p.Params.author }}{{ . }}{{ else }}{{ with $p.Params.tags }}{{ delimit . ", " }}{{ end }}{{ end }}</span>
                 </div>
               </div>
             </a>
@@ -39,7 +39,7 @@
                 <div class="card-footer">
                   <span class="card-date">{{ $p.Date.Format "Jan 02, 2006" }}</span>
                   <span class="card-dot">•</span>
-                  <span class="card-tag">{{ with $p.Params.author }}{{ . }}{{ else }}{{ delimit $p.Params.tags ", " }}{{ end }}</span>
+                  <span class="card-tag">{{ with $p.Params.author }}{{ . }}{{ else }}{{ with $p.Params.tags }}{{ delimit . ", " }}{{ end }}{{ end }}</span>
                 </div>
               </div>
             </a>

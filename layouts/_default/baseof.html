@@ -6,6 +6,9 @@
     <title>{{ if .Title }}{{ .Title }} · {{ end }}RadixArk Blog</title>
     <link rel="stylesheet" href="{{ "styles.css" | relURL }}" />
   </head>
+  {{ if .Param "math" }}
+    {{ partialCached "math.html" . }}
+  {{ end }}
   <body>
     <div class="page{{ if .IsHome }}{{ else }} page-detail{{ end }}">
       <header class="page-header">
