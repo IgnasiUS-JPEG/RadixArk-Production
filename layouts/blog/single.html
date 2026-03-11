@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <main class="detail-layout">
+    <article class="detail-article">
+      <header class="detail-header">
+        <p class="detail-meta">
+          <span>{{ .Date.Format "Jan 02, 2006" }}</span>
+          <span class="card-dot">•</span>
+          <span>
+            {{ with .Params.author }}
+              {{ . }}
+            {{ else }}
+              {{ delimit .Params.tags ", " }}
+            {{ end }}
+          </span>
+        </p>
+        <h1 class="detail-title">{{ .Title }}</h1>
+      </header>
+
+      <section class="detail-content">
+        {{ .Content }}
+      </section>
+    </article>
+  </main>
+{{ end }}
+

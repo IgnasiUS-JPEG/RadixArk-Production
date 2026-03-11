@@ -1,0 +1,52 @@
+{{ define "main" }}
+  <main class="blog-layout">
+    {{ $posts := where .Site.RegularPages "Section" "blog" }}
+    {{ $sorted := sort $posts "Date" "desc" }}
+    {{ $half := div (len $sorted) 2 }}
+
+    <section class="blog-column">
+      {{ range $i, $p := $sorted }}
+        {{ if lt $i $half }}
+          <article class="blog-card">
+            <a class="card-link" href="{{ $p.RelPermalink }}">
+              <div class="card-thumb {{ printf "thumb-%d" (add $i 1) }}"></div>
+              <div class="card-meta">
+                <div class="card-title">
+                  {{ $p.Title }}
+                </div>
+                <div class="card-footer">
+                  <span class="card-date">{{ $p.Date.Format "Jan 02, 2006" }}</span>
+                  <span class="card-dot">•</span>
+                  <span class="card-tag">{{ with $p.Params.author }}{{ . }}{{ else }}{{ delimit $p.Params.tags ", " }}{{ end }}</span>
+                </div>
+              </div>
+            </a>
+          </article>
+        {{ end }}
+      {{ end }}
+    </section>
+
+    <section class="blog-column">
+      {{ range $i, $p := $sorted }}
+        {{ if ge $i $half }}
+          <article class="blog-card">
+            <a class="card-link" href="{{ $p.RelPermalink }}">
+              <div class="card-thumb {{ printf "thumb-%d" (add $i 1) }}"></div>
+              <div class="card-meta">
+                <div class="card-title">
+                  {{ $p.Title }}
+                </div>
+                <div class="card-footer">
+                  <span class="card-date">{{ $p.Date.Format "Jan 02, 2006" }}</span>
+                  <span class="card-dot">•</span>
+                  <span class="card-tag">{{ with $p.Params.author }}{{ . }}{{ else }}{{ delimit $p.Params.tags ", " }}{{ end }}</span>
+                </div>
+              </div>
+            </a>
+          </article>
+        {{ end }}
+      {{ end }}
+    </section>
+  </main>
+{{ end }}
+
