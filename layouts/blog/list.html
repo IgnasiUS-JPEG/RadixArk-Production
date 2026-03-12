@@ -1,0 +1,72 @@
+{{ define "main" }}
+
+<!-- Framer Replica Blog Section (Fully Scoped) -->
+<section class="framer-blog-section">
+  <!-- Light Rays Effect component (ReactBits WebGL) -->
+  <div class="framer-light-rays" id="reactbits-lightrays"></div>
+  
+  <div class="framer-background-glow framer-left-glow"></div>
+  <div class="framer-background-glow framer-right-glow"></div>
+  <div class="framer-background-glow framer-top-glow"></div>
+
+  <div class="framer-container">
+    <header class="framer-header">
+      <a href="{{ "/" | relURL }}"
+        style="align-self: flex-start; margin-bottom: 24px; font-size: 13px; color: #888888; text-decoration: none; transition: color 140ms ease-out;">←
+        Back to home</a>
+      <a href="{{ "/" | relURL }}" style="display:block; text-decoration:none;">
+        <img src="{{ "brand.png" | relURL }}" alt="RadixArk Logo" class="framer-logo">
+      </a>
+      <h1>News & Blog at <span class="framer-highlight">RadixArk</span> </h1>
+      <p class="framer-subtitle">Insights, updates, and stories from the RadixArk team.</p>
+    </header>
+
+    <main class="framer-blog-grid">
+      {{ range $index, $page := .Pages }}
+      {{/* Cycle through some abstract images if none provided in frontmatter */}}
+      {{ $images := slice
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2564&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2000&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=2000&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1634152962476-4b8a00e1915c?q=80&w=2000&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2000&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1620121692029-d088224ddc74?q=80&w=2000&auto=format&fit=crop"
+      }}
+      {{ $len := len .Permalink }}
+      {{ $imgIndex := mod $len (len $images) }}
+      {{ $fallbackImage := index $images $imgIndex }}
+
+      <a href="{{ .Permalink }}" class="framer-blog-card">
+        <div class="framer-card-image">
+          <img src="{{ with .Params.image }}{{ . }}{{ else }}{{ $fallbackImage }}{{ end }}" alt="{{ .Title }}">
+        </div>
+        <div class="framer-card-content">
+          <h2 class="framer-card-title">{{ .Title }}</h2>
+          <div class="framer-meta-container">
+            <span class="framer-card-meta">
+              {{ .Date.Format "Jan 02, 2006" }} • {{ with .Params.author }}{{ . }}{{ else }}RadixArk Team{{ end }}
+            </span>
+            <span class="framer-card-action">Read Post ↗</span>
+          </div>
+        </div>
+      </a>
+      {{ end }}
+    </main>
+  </div>
+
+  <footer class="framer-footer">
+    <div class="framer-footer-left">
+      © 2026 RadixArk Inc.
+    </div>
+    <a href="mailto:hello@radixark.com" class="framer-footer-right">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+      </svg>
+      hello@radixark.com
+    </a>
+  </footer>
+</section>
+<script type="module" src="{{ "lightrays.js" | relURL }}"></script>
+{{ end }}

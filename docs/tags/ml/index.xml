@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ml on RadixArk Blog</title>
+    <link>http://localhost:52350/tags/ml/</link>
+    <description>Recent content in Ml on RadixArk Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:52350/tags/ml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Calculus of Gradient Descent</title>
+      <link>http://localhost:52350/blog/04-gradient-descent/</link>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:52350/blog/04-gradient-descent/</guid>
+      <description>&lt;p&gt;Training a model is simply finding the minimum of a high-dimensional surface. To get there, we follow the slope downwards.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-objective&#34;&gt;The Objective&lt;/h3&gt;&#xA;&lt;p&gt;Given a cost function \( J(\theta) \), we want to find the parameters \( \theta \) that minimize \( J \). The update rule for simple gradient descent is:&lt;/p&gt;&#xA;$$&#xA;\theta_{t+1} = \theta_t - \eta \nabla J(\theta_t)&#xA;$$&lt;p&gt;Where \( \eta \) is the learning rate.&lt;/p&gt;&#xA;&lt;h3 id=&#34;momentum-and-adam&#34;&gt;Momentum and Adam&lt;/h3&gt;&#xA;&lt;p&gt;Standard gradient descent oscillates in ravines. Adding a momentum term \( v_t \) dampens this:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rl on RadixArk Blog</title>
+    <link>http://localhost:52350/tags/rl/</link>
+    <description>Recent content in Rl on RadixArk Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:52350/tags/rl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solving the Bellman Equation</title>
+      <link>http://localhost:52350/blog/09-bellman-equation/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:52350/blog/09-bellman-equation/</guid>
+      <description>&lt;p&gt;In Reinforcement Learning, an agent navigates a Markov Decision Process (MDP) to maximize a delayed reward. The math behind mapping state to action is governed by Richard Bellman&amp;rsquo;s principle of optimality.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-value-function&#34;&gt;The Value Function&lt;/h3&gt;&#xA;&lt;p&gt;The state-value function \( V^\pi(s) \) specifies the expected return starting from state \( s \), following policy \( \pi \):&lt;/p&gt;&#xA;$$&#xA;V^\pi(s) = \mathbb{E}_\pi \left[ \sum_{k=0}^{\infty} \gamma^k R_{t+k+1} \mid S_t = s \right]&#xA;$$&lt;p&gt;Where \( \gamma \) is the discount factor (\( 0 \le \gamma \le 1 \)) and \( R \) is the reward.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

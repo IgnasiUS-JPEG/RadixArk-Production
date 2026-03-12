@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ai on RadixArk Blog</title>
-    <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/ai/</link>
+    <link>http://localhost:52350/tags/ai/</link>
     <description>Recent content in Ai on RadixArk Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:52350/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Backbone of Intelligence: Why Infrastructure‑First is the Future of AI</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/backbone-of-intelligence/</link>
+      <link>http://localhost:52350/blog/backbone-of-intelligence/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/backbone-of-intelligence/</guid>
+      <guid>http://localhost:52350/blog/backbone-of-intelligence/</guid>
       <description>&lt;p&gt;Model quality is only half the story. Without strong infrastructure, intelligent products become fragile, expensive, and impossible to iterate.&lt;/p&gt;&#xA;&lt;p&gt;We design infrastructure‑first: observability, safety, routing, and data pipelines that make experimentation cheap and failures graceful.&lt;/p&gt;&#xA;&lt;p&gt;For teams shipping AI‑native products, this backbone becomes the real differentiator.&lt;/p&gt;</description>
     </item>
   </channel>
