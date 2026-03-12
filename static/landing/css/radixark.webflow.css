@@ -486,6 +486,69 @@
   font-weight: 400;
 }
 
+@media screen and (max-width: 991px) {
+  .hero-section .image {
+    width: 65%;
+  }
+
+  .landing-sections {
+    padding: 80px 32px 80px;
+    gap: 80px;
+  }
+
+  .landing-section-title.landing-mission-title,
+  .landing-section-feature .landing-section-title {
+    font-size: 48px;
+  }
+
+  .landing-tagline {
+    font-size: 64px;
+    letter-spacing: 6px;
+    margin: 40px 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-section .home-nav {
+    padding: 0 24px;
+  }
+
+  .landing-sections {
+    padding: 60px 24px;
+    gap: 60px;
+  }
+
+  .landing-section {
+    margin-bottom: 60px;
+  }
+
+  .landing-section-title.landing-mission-title,
+  .landing-section-feature .landing-section-title {
+    font-size: 40px;
+  }
+
+  .landing-section-feature .landing-section-icon {
+    width: 40px;
+    height: 40px;
+    flex-basis: 40px;
+  }
+
+  .landing-tagline {
+    font-size: 48px;
+    letter-spacing: 4px;
+  }
+
+  .landing-join-card {
+    padding: 32px 24px;
+  }
+
+  .landing-footer {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+}
+
 @media screen and (max-width: 479px) {
   .hero-section .rays {
     width: 150%;
@@ -504,17 +567,70 @@
     font-size: 13px;
   }
 
+  .hero-section .home-nav {
+    padding: 0 16px;
+    font-size: 13px;
+  }
+
+  .home-nav-left {
+    gap: 12px;
+  }
+
+  .hero-section .icon {
+    height: 40px;
+  }
+
+  .home-nav-cta {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
   .landing-sections {
-    padding: 48px 20px 80px;
+    padding: 48px 16px 64px;
+    gap: 48px;
+  }
+
+  .landing-section {
+    margin-bottom: 48px;
   }
 
   .landing-section-title {
     font-size: 22px;
   }
 
+  .landing-section-title.landing-mission-title,
+  .landing-section-feature .landing-section-title {
+    font-size: 32px;
+  }
+
+  .landing-section-feature .landing-section-icon {
+    width: 32px;
+    height: 32px;
+    flex-basis: 32px;
+  }
+
   .landing-section p,
   .landing-join-text {
     font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .landing-section p.landing-mission-highlight {
+    font-size: 24px;
+  }
+
+  .landing-tagline {
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin: 24px 0 16px;
+  }
+
+  .landing-join-title {
+    font-size: 24px;
+  }
+
+  .landing-join-card {
+    padding: 24px 16px;
   }
 }
 
