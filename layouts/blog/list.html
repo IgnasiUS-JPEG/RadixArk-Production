@@ -11,11 +11,11 @@
 
   <div class="framer-container">
     <header class="framer-header">
-      <a href="{{ "/" | relURL }}"
+      <a href="{{ "/" | absURL }}"
         style="align-self: flex-start; margin-bottom: 24px; font-size: 13px; color: #888888; text-decoration: none; transition: color 140ms ease-out;">←
         Back to home</a>
-      <a href="{{ "/" | relURL }}" style="display:block; text-decoration:none;">
-        <img src="{{ "brand.png" | relURL }}" alt="RadixArk Logo" class="framer-logo">
+      <a href="{{ "/" | absURL }}" style="display:block; text-decoration:none;">
+        <img src="{{ "brand.png" | absURL }}" alt="RadixArk Logo" class="framer-logo">
       </a>
       <h1>News & Blog at <span class="framer-highlight">RadixArk</span> </h1>
       <p class="framer-subtitle">Insights, updates, and stories from the RadixArk team.</p>
@@ -68,5 +68,5 @@
     </a>
   </footer>
 </section>
-<script type="module" src="{{ "lightrays.js" | relURL }}"></script>
+<script type="module" src="{{ "lightrays.js" | absURL }}"></script>
 {{ end }}

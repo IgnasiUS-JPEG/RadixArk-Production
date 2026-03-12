@@ -7,9 +7,9 @@
 
   <div class="framer-container framer-detail-container">
     <header class="framer-header framer-detail-header">
-      <a href="{{ "blog" | relURL }}" class="framer-back-link">← Back to blog</a>
-      <a href="{{ "/" | relURL }}" style="display:block; text-decoration:none;">
-        <img src="{{ "brand.png" | relURL }}" alt="RadixArk Logo" class="framer-logo framer-detail-logo">
+      <a href="{{ "blog" | absURL }}" class="framer-back-link">← Back to blog</a>
+      <a href="{{ "/" | absURL }}" style="display:block; text-decoration:none;">
+        <img src="{{ "brand.png" | absURL }}" alt="RadixArk Logo" class="framer-logo framer-detail-logo">
       </a>
     </header>
 
@@ -46,7 +46,7 @@
   <div class="framer-related-section">
       <div class="framer-related-header">
         <h3>Check this too</h3>
-        <a href="{{ "blog" | relURL }}">See all blogs</a>
+        <a href="{{ "blog" | absURL }}">See all blogs</a>
       </div>
       <div class="framer-related-grid">
         {{ $current := . }}
