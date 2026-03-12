@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RadixArk Blog</title>
-    <link>http://localhost:61957/</link>
+    <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/</link>
     <description>Recent content on RadixArk Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:61957/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ignasius-jpeg.github.io/RadixArk-blog-test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Debug Post</title>
-      <link>http://localhost:61957/blog/debug-post/</link>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/debug-post/</link>
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61957/blog/debug-post/</guid>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/debug-post/</guid>
       <description>&lt;p&gt;This is a simple debug post to verify that Hugo is reading content files.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Era of the Inference Engine: How RadixArk is Scaling the Next Generation of Intelligence</title>
-      <link>http://localhost:61957/blog/era-of-inference/</link>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/era-of-inference/</link>
       <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61957/blog/era-of-inference/</guid>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/era-of-inference/</guid>
       <description>&lt;p&gt;Inference is quietly becoming the center of modern software. What used to be static interfaces and fixed flows are now continuously adapting systems that synthesize, route, and respond in real time.&lt;/p&gt;&#xA;&lt;p&gt;At RadixArk we think of an inference engine not as a single model, but as a coordinated stack: routing, memory, evaluation, observability, and human‑centered design layered together.&lt;/p&gt;&#xA;&lt;p&gt;This article walks through how we scale that stack—from single‑tenant prototypes to multi‑tenant, high‑availability systems that can power entire product lines.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Backbone of Intelligence: Why Infrastructure‑First is the Future of AI</title>
-      <link>http://localhost:61957/blog/backbone-of-intelligence/</link>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/backbone-of-intelligence/</link>
       <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61957/blog/backbone-of-intelligence/</guid>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/backbone-of-intelligence/</guid>
       <description>&lt;p&gt;Model quality is only half the story. Without strong infrastructure, intelligent products become fragile, expensive, and impossible to iterate.&lt;/p&gt;&#xA;&lt;p&gt;We design infrastructure‑first: observability, safety, routing, and data pipelines that make experimentation cheap and failures graceful.&lt;/p&gt;&#xA;&lt;p&gt;For teams shipping AI‑native products, this backbone becomes the real differentiator.&lt;/p&gt;</description>
     </item>
     <item>
       <title>New test Blog</title>
-      <link>http://localhost:61957/blog/new-blog-test/</link>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/new-blog-test/</link>
       <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61957/blog/new-blog-test/</guid>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/new-blog-test/</guid>
       <description>&lt;p&gt;Users rarely say &amp;ldquo;thank you&amp;rdquo; for performance—but they always feel its absence.&lt;/p&gt;&#xA;&lt;p&gt;We argue that 70 FPS is the new baseline for interactive systems, and walk through the architectural and design decisions required to get there.&lt;/p&gt;&#xA;&lt;p&gt;From render pipelines to perceived latency tricks, this piece is a tour of the performance mindset inside RadixArk.&lt;/p&gt;&#xA;&lt;p&gt;This is an inline \(a^*=x-b^*\) equation.&lt;/p&gt;&#xA;&lt;p&gt;These are block equations:&lt;/p&gt;&#xA;\[a^*=x-b^*\]\[ a^*=x-b^* \]\[&#xA;a^*=x-b^*&#xA;\]&lt;p&gt;These are also block equations:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Test</title>
-      <link>http://localhost:61957/blog/test/</link>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/test/</link>
       <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61957/blog/test/</guid>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/test/</guid>
       <description>&lt;p&gt;Users rarely say &amp;ldquo;thank you&amp;rdquo; for performance—but they always feel its absence.&lt;/p&gt;&#xA;&lt;p&gt;We argue that 70 FPS is the new baseline for interactive systems, and walk through the architectural and design decisions required to get there.&lt;/p&gt;&#xA;&lt;p&gt;From render pipelines to perceived latency tricks, this piece is a tour of the performance mindset inside RadixArk.&lt;/p&gt;&#xA;&lt;p&gt;This is an inline \(a^*=x-b^*\) equation.&lt;/p&gt;&#xA;&lt;p&gt;These are block equations:&lt;/p&gt;&#xA;\[a^*=x-b^*\]\[ a^*=x-b^* \]\[&#xA;a^*=x-b^*&#xA;\]&lt;p&gt;These are also block equations:&lt;/p&gt;</description>
     </item>
     <item>
       <title>The 70 FPS Standard: Why Performance is the Ultimate User Experience</title>
-      <link>http://localhost:61957/blog/seventy-fps-standard/</link>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/seventy-fps-standard/</link>
       <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61957/blog/seventy-fps-standard/</guid>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/seventy-fps-standard/</guid>
       <description>&lt;p&gt;Users rarely say &amp;ldquo;thank you&amp;rdquo; for performance—but they always feel its absence.&lt;/p&gt;&#xA;&lt;p&gt;We argue that 70 FPS is the new baseline for interactive systems, and walk through the architectural and design decisions required to get there.&lt;/p&gt;&#xA;&lt;p&gt;From render pipelines to perceived latency tricks, this piece is a tour of the performance mindset inside RadixArk.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Grammar of Design: Why Professional Precision is the Secret to Creative Success</title>
-      <link>http://localhost:61957/blog/grammar-of-design/</link>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/grammar-of-design/</link>
       <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61957/blog/grammar-of-design/</guid>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/grammar-of-design/</guid>
       <description>&lt;p&gt;Most teams treat design as a mood, not a language. But the products that age well are built on a precise grammar: grids, rhythm, typography, motion, and tone all working together.&lt;/p&gt;&#xA;&lt;p&gt;A small set of strong constraints can unlock more creativity, not less—and professional craft becomes the best multiplicative force you can add to an ambitious roadmap.&lt;/p&gt;&#xA;&lt;p&gt;This piece shares practical patterns we use at RadixArk to keep complex systems visually calm, legible, and fast to navigate.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Power of Compounding: Why Systems Beat Intensity in Product and Finance</title>
-      <link>http://localhost:61957/blog/power-of-compounding/</link>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/power-of-compounding/</link>
       <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61957/blog/power-of-compounding/</guid>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/power-of-compounding/</guid>
       <description>&lt;p&gt;Compounding is not just a financial idea; it is a product idea. The teams that win are the ones that design feedback loops instead of one‑off launches.&lt;/p&gt;&#xA;&lt;p&gt;Compounding shows up in onboarding, activation, retention, infrastructure, and pricing—and small, consistent improvements beat occasional heroic sprints.&lt;/p&gt;&#xA;&lt;p&gt;If you are building long‑lived products, this shift in perspective changes how you prioritize almost everything.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Architecture of Focus: Why Less is More in Modern Product Design</title>
-      <link>http://localhost:61957/blog/architecture-of-focus/</link>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/architecture-of-focus/</link>
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61957/blog/architecture-of-focus/</guid>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/architecture-of-focus/</guid>
       <description>&lt;p&gt;Great products are not the ones with the most surface area; they are the ones with the highest density of meaning per pixel.&lt;/p&gt;&#xA;&lt;p&gt;This article breaks down how to design interfaces that respect attention: from contrast and motion to information hierarchy and micro‑copy.&lt;/p&gt;&#xA;&lt;p&gt;The result is not minimalism for its own sake, but a product that feels fast, clear, and quietly powerful.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Ghost in the Machine: Bringing High‑Level Logic with Human‑Centric Design</title>
-      <link>http://localhost:61957/blog/ghost-in-the-machine/</link>
+      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/ghost-in-the-machine/</link>
       <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61957/blog/ghost-in-the-machine/</guid>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/ghost-in-the-machine/</guid>
       <description>&lt;p&gt;The best automation does not feel like automation at all; it feels like a collaborator who anticipates what you are trying to do.&lt;/p&gt;&#xA;&lt;p&gt;This article explores how to express high‑level logic in interfaces without overwhelming people, and how AI can stay legible, steerable, and trustworthy.&lt;/p&gt;&#xA;&lt;p&gt;If you are designing with intelligent systems, this piece is a field guide to keeping humans in the loop in a respectful way.&lt;/p&gt;</description>
     </item>
   </channel>
