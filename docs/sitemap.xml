@@ -2,93 +2,93 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>http://localhost:61957/blog/</loc>
     <lastmod>2026-03-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/debug/</loc>
+    <loc>http://localhost:61957/tags/debug/</loc>
     <lastmod>2026-03-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/debug-post/</loc>
+    <loc>http://localhost:61957/blog/debug-post/</loc>
     <lastmod>2026-03-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:61957/</loc>
     <lastmod>2026-03-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:61957/tags/</loc>
     <lastmod>2026-03-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/infrastructure/</loc>
+    <loc>http://localhost:61957/tags/infrastructure/</loc>
     <lastmod>2026-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/intelligence/</loc>
+    <loc>http://localhost:61957/tags/intelligence/</loc>
     <lastmod>2026-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/radixark/</loc>
+    <loc>http://localhost:61957/tags/radixark/</loc>
     <lastmod>2026-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/era-of-inference/</loc>
+    <loc>http://localhost:61957/blog/era-of-inference/</loc>
     <lastmod>2026-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ai/</loc>
+    <loc>http://localhost:61957/tags/ai/</loc>
     <lastmod>2026-03-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/backbone-of-intelligence/</loc>
+    <loc>http://localhost:61957/blog/backbone-of-intelligence/</loc>
     <lastmod>2026-03-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/craft/</loc>
+    <loc>http://localhost:61957/tags/craft/</loc>
     <lastmod>2026-03-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/design/</loc>
+    <loc>http://localhost:61957/tags/design/</loc>
     <lastmod>2026-03-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/new-blog-test/</loc>
+    <loc>http://localhost:61957/blog/new-blog-test/</loc>
     <lastmod>2026-03-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/performance/</loc>
+    <loc>http://localhost:61957/tags/performance/</loc>
     <lastmod>2026-03-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/test/</loc>
+    <loc>http://localhost:61957/blog/test/</loc>
     <lastmod>2026-03-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/seventy-fps-standard/</loc>
+    <loc>http://localhost:61957/blog/seventy-fps-standard/</loc>
     <lastmod>2026-03-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/grammar-of-design/</loc>
+    <loc>http://localhost:61957/blog/grammar-of-design/</loc>
     <lastmod>2026-03-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ux/</loc>
+    <loc>http://localhost:61957/tags/ux/</loc>
     <lastmod>2026-03-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/finance/</loc>
+    <loc>http://localhost:61957/tags/finance/</loc>
     <lastmod>2026-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/product/</loc>
+    <loc>http://localhost:61957/tags/product/</loc>
     <lastmod>2026-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/systems/</loc>
+    <loc>http://localhost:61957/tags/systems/</loc>
     <lastmod>2026-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/power-of-compounding/</loc>
+    <loc>http://localhost:61957/blog/power-of-compounding/</loc>
     <lastmod>2026-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/focus/</loc>
+    <loc>http://localhost:61957/tags/focus/</loc>
     <lastmod>2026-03-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/product-design/</loc>
+    <loc>http://localhost:61957/tags/product-design/</loc>
     <lastmod>2026-03-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/architecture-of-focus/</loc>
+    <loc>http://localhost:61957/blog/architecture-of-focus/</loc>
     <lastmod>2026-03-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/automation/</loc>
+    <loc>http://localhost:61957/tags/automation/</loc>
     <lastmod>2026-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/human-centered-design/</loc>
+    <loc>http://localhost:61957/tags/human-centered-design/</loc>
     <lastmod>2026-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/ghost-in-the-machine/</loc>
+    <loc>http://localhost:61957/blog/ghost-in-the-machine/</loc>
     <lastmod>2026-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:61957/categories/</loc>
   </url>
 </urlset>

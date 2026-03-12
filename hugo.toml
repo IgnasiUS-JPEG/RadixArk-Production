@@ -8,6 +8,9 @@ buildFuture = true
   brand = "RadixArk"
   math = true
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [markup]
   [markup.goldmark]
