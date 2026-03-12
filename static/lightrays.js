@@ -153,4 +153,9 @@ function initLightRays() {
   requestAnimationFrame(update);
 }
 
-document.addEventListener('DOMContentLoaded', initLightRays);
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initLightRays);
+} else {
+  // DOM is already parsed, run immediately.
+  initLightRays();
+}
