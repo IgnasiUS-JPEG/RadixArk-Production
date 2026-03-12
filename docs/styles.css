@@ -233,6 +233,7 @@ body {
 
 .detail-content p {
   margin: 0 0 16px;
+  font-size: 19px;
 }
 
 .detail-content p:last-child {

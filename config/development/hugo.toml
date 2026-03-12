@@ -1,0 +1,3 @@
+# Override baseURL for local dev so static files (CSS) load correctly.
+# Hugo server serves static files from root; with a path in baseURL the CSS link 404s.
+baseURL = "http://localhost:1313/"

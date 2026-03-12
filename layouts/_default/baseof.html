@@ -13,12 +13,14 @@
     <div class="page{{ if .IsHome }}{{ else }} page-detail{{ end }}">
       <header class="page-header">
         {{ if not .IsHome }}
-          <a href="{{ "/" | relURL }}" class="back-link">← Back to all articles</a>
+          <a href="{{ if and (eq .Section "blog") .IsPage }}{{ "blog" | relURL }}{{ else }}{{ "/" | relURL }}{{ end }}" class="back-link">{{ if and (eq .Section "blog") .IsPage }}← Back to blog{{ else }}← Back to home{{ end }}</a>
         {{ end }}
         <div class="logo-mark" aria-hidden="true"></div>
         <div class="page-eyebrow">
           {{ if .IsHome }}
             News &amp; Blog at <span class="brand">{{ site.Params.brand }}</span>
+          {{ else if eq .Section "blog" }}
+            <a href="{{ "/" | relURL }}" style="color:inherit;text-decoration:none;">RadixArk</a> · Blog
           {{ else }}
             RadixArk · Insight
           {{ end }}
